@@ -86,7 +86,7 @@ class MultiSelectCondition(DataObject):
     """Represents a multi_select criteria in Notion."""
 
     contains: Optional[str] = None
-    does_not_contains: Optional[str] = None
+    does_not_contain: Optional[str] = None
     is_empty: Optional[bool] = None
     is_not_empty: Optional[bool] = None
 
